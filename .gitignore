@@ -1,16 +1,11 @@
-# Ignore Play! working directory #
-bin/
-/db
-.eclipse
-/lib/
-/logs/
-/modules
-/project/project
-/project/target
-/target
-tmp/
-test-result
-server.pid
-*.eml
-/dist/
-.cache
+**/terraform/*
+.terraform.locl.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.idea
